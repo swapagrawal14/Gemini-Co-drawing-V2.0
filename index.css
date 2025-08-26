@@ -1,0 +1,18 @@
+html {
+  color-scheme: light;
+  background-color: white;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.05);
+  }
+}
+
+.pulsing-canvas {
+  animation: pulse 2s infinite;
+}
